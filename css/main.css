@@ -57,9 +57,10 @@ body {
 }
 
 .navDiv {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
+  max-width: 1200px;
+  margin:0 auto;
   font-size: 1.6rem;
   height: 70px;
   -webkit-box-pack: justify;
